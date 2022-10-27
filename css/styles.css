@@ -1,0 +1,28 @@
+section{
+    height: 150vh;
+    border-bottom: 1px solid black;
+}
+
+.scroll-icons{
+    position: fixed;
+    right: 5px;
+    top: 0;
+    width: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.scroll-icons .circle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.scroll-icons .circle.active{
+    background-color: black;
+}
